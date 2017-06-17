@@ -1,0 +1,392 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.mac {
+    padding: 6% 0px 41px 24%;
+    right: -6%;
+	margin-top: 92px;
+}
+
+.title_block:after {
+    top: 160px;
+    left: 499px;
+    width: 50px;
+    height: 29px;
+    opacity: .8;
+    transition: 1s;
+}
+
+.title_block:before {
+    top: 135px;
+    left: 129px;
+    opacity: .3;
+    transition: 1s;
+}
+
+.img_block:after {
+    top: 71px;
+    left: 317px;
+    width: 30px;
+    height: 17px;
+    transition: 2s;
+}
+
+header input {
+    color: #333;
+    width: 270px;
+    transition: 2s;
+
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.prmr {
+	    margin-right: auto;
+	}
+	.img_block {
+	    height: 394px;
+	    position: absolute;
+	    right: 24px;
+	    top: -178px;
+	    transition: 1s;
+	}
+
+	.main-img {
+    	height: 381px;
+	}
+
+	.title_block:before {
+	    top: 135px;
+	    left: 247px;
+	}
+
+	.title_block:after {
+	    display: none;
+	}
+
+	header input {
+    	width: 50%;
+	}
+
+	.item img {
+		float: none;
+		display: block;
+		margin: 35px auto 0 auto;
+
+	    transition: 1s;
+	}
+
+	#slider_block {
+		padding-bottom: 70px;
+		transition: 1s;
+	}
+
+	.carousel-indicators {
+    	bottom: -40px;
+	}
+
+	.item {
+	    padding: 20px;
+	}
+
+	.title_block button {
+		left: -250px;
+	    top: 100px;
+	    position: relative;
+	    transition: 1s;
+	}
+
+
+	.title_block {
+	    color: #fff;
+	    text-align: left;
+	    margin-left: 60px;
+	    margin-top: 124px;
+	    transition: 1s;
+	}
+
+	.title_block h1 {
+	    font-size: 39px; 
+	}
+
+    .title_block button {
+	    left: -191px;
+	    top: 75px; 
+	}
+
+	.mac {
+	    padding: 26px 0px 41px 83px;
+	    width: 683px;
+	    height: 399px;
+	    left: 0;
+	    margin: 25px auto 30px auto;
+	}
+
+	#map {
+	    height: 327px;
+	}
+
+	header {
+	    height: 550px;
+    }
+
+	footer .menu li {
+	   	padding: 0 12px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+		header {
+	 		padding: 0 5px;
+	 		height: 440px;
+	 		transition: 1s;
+		}
+
+		.title_block h1 {
+		    font-size: 31px;
+		    transition: 1s;
+		}
+		
+		.title_block {
+		    color: #fff;
+		    text-align: center;
+		    margin-top: 140px;
+		}
+
+		.title_block:before {
+			display: none;
+		}
+		
+		nav{
+			height: 60px;
+			line-height: 60px;
+			background-color: #fff;
+		}
+		.top_line{
+			display: none;
+		}
+		.logo{
+			padding-top: 15px;
+		}
+
+
+
+		.menu_btn{
+			width: 40px;
+			height: 40px;
+			border-radius:50%;
+			background-color: #e84545;
+			color: #fff; 
+		}
+		.menu_btn span{
+			top: -15px;
+		}
+		#top_menu{
+		    background-color: #ececec;
+		    padding: 20px 0;
+		    border-bottom: 1px solid #737373;
+		    transition: 1s;
+		}
+		.menu li{
+			display: block;
+			text-align: center;
+		}
+		.menu li a{
+			display: block;
+			border-right: none;
+		}
+		.menu li a:hover{
+			background-color: #fff;
+			color: #000;
+		}
+
+	.dop {
+	    left: 0;
+	    padding: 15px 55px;
+	}
+	
+	#map {
+	    height: 208px;
+	}
+
+	.mac {
+	    width: 440px;
+	    height: 310px;
+	    padding: 17px 0px 41px 54px;
+	}
+
+	.main-img {
+		display: none;
+	}
+
+	footer #top_menu {
+	    display: block;
+	}
+
+	footer .navbar-brand>img {
+    	height: 25px;
+    	display: none;
+	}
+
+	.menu li a {
+	    display: block;
+	    line-height: 39px;
+	    border-bottom: 1px solid rgba(255, 255, 255, 0.49);
+	}
+
+	.title_block {
+    	margin-top: 110px;
+    	margin-left: 0; }
+
+    header input {
+    	width: 90%; }
+
+    .title_block button {
+	    top: 28px;
+	    margin: 0 auto;
+	    display: block;
+	    position: static;
+	    margin-top: 20px;
+	}
+
+ 	#sign input {
+    	margin-bottom: 35px;
+	}
+
+	#why-us {
+    	padding-bottom: 10px;
+    	transition: 1s;
+	}
+
+	section#why-us h2 {
+	    padding: 40px 0;
+	}
+
+	#slider_block {
+	   padding: 50px 0 70px 0;
+	}
+
+	#sign {
+		    padding: 55px 0 55px 0;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48
+	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		width: 40px;
+		height: 40px;
+		border-radius:50%;
+		background-color: #e84545;
+		color: #fff; 
+	}
+
+
+	.menu_btn span{
+		top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{
+		background-color: #fff;
+		color: #000;
+	}
+	
+
+	nav {
+        background-color: #ffffff;
+    }
+
+    #top_menu {
+    background-color: #f2f3f5;
+ 	}
+
+ 	#sign input {
+    width: 100%; }
+
+	.mac {
+	    width: 391px;
+	    height: 269px;
+	    padding: 15px 0px 41px 48px;
+	}
+
+	#map {
+	    width: 73.6%;
+	    height: 186px;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48
+	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		width: 40px;
+		height: 40px;
+		border-radius:50%;
+		background-color: #e84545;
+		color: #fff; 
+	}
+
+	.menu_btn span{
+		top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{background-color: #fff;
+		color: #000;}
+
+	#map {
+		display: none;
+	}
+
+	.mac {
+    width: 100%; }
+
+}
+

@@ -1,0 +1,461 @@
+body{
+	font-family: "UbuntuRegular", sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+    overflow-x: hidden;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+    font-family: UbuntuRegular;
+    color: #545454;
+}
+
+section#why-us h2{
+    padding: 70px 0;    
+}
+
+.p0{
+	padding: 0;
+}
+
+/*BUTTONS*/
+.my_btn{
+	background-color: #e84545;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.btn_lg{
+	padding: 15px 50px;
+}
+.soc_btn_grey{
+	border: 1px solid #c6cacc;
+	color:#c6cacc;
+	background-color: transparent;
+	width: 36px;
+    height: 36px;
+    font-size: 16px;
+}
+
+/*HEADER*/
+header {
+    height: 670px;
+    transition: 1s;
+    background-color: #65A8D7;
+    overflow: hidden;
+}
+nav{
+    height: 68px;
+    line-height: 68px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+}
+
+header label {
+    clear: right;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.navbar-brand>img {
+	height: 25px;
+}
+
+.menu{
+	list-style-type:none;
+	margin: 0;
+	padding: 0; 
+}
+.menu li{
+	display: inline-block;
+	padding: 0 28px;
+}
+.menu li a {
+    color: #79818D;
+    text-transform: uppercase;
+    font-family: 'Raleway' , sans-serif;
+}
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color: #424242;
+}
+
+.logo{
+	padding-top: 22px;
+}
+
+.img_block {
+    height: 584px;
+    position: absolute;
+    right: 82px;
+    top: 143px;
+}
+
+.main-img {
+    height: 584px;
+}
+
+.title_block{
+    color: #fff;
+    text-align: left;
+    margin-left: 95px;
+    margin-top: 255px;
+    transition: 1s;
+}
+
+.title_block h1 {
+    font-size: 50px;
+    font-family: UbuntuBold;
+    text-transform: uppercase;
+	transition: 1s;
+}
+
+.title_block p{
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.title_block label {
+    cursor: pointer;
+}
+
+.title_block span {
+	background: #FFCE54;
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+
+#sign input {
+    color: #333;
+    width: 500px;
+    padding: 16px 15px 16px 55px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+    background: url(../img/sprite.png) no-repeat -294px 0px;
+    background-color: white;
+}
+
+#sign h3 {
+    margin-bottom: 28px;
+    font-size: 30px;
+    font-family: UbuntuBold;
+    color: #757575;
+}
+
+#sign span {
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: 17px;
+    font-family: UbuntuItalic;
+}
+header input {
+    color: #333;
+    width: 330px;
+    padding: 11px 15px 11px 20px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+    background-color: white;
+    transition: 1s;
+}
+
+
+
+
+.title_block:before, .title_block:after, .img_block:before, .img_block:after{
+    content: "";
+    width: 41px;
+    height: 22px;
+    position: absolute;
+    top: 184px;
+    left: 96px;
+    background: url(../img/sky.png) no-repeat;
+	background-size: cover;
+    transition: 1s;
+}
+
+.title_block:after {
+	top: 596px;
+    left: 154px;
+    width: 36px;
+    height: 21px;
+}
+
+.img_block:after{
+    top: 103px;
+    left: 305px;
+    width: 34px;
+    height: 20px;
+}
+
+.img_block:before{
+	top: 462px;
+    left: 395px;
+    opacity: .5;
+}
+
+.img_block {
+	transition: 1s;
+}
+
+/*Клиенты*/
+
+#сlients {
+	background: #F8F8F8;
+}
+
+#сlients img{
+	position: relative;
+	margin: 0 auto;
+    display: block;
+}
+
+/*Why US*/
+.reason h3 {
+    margin-left: 70px;
+    position: relative;
+    font-size: 19px;
+    font-family: UbuntuRegular;
+    color: #404040;
+    margin-left: 56px;
+    margin-bottom: 20px;
+}
+
+h3+p{
+    color: #948f8f;
+    margin-bottom: 30px;
+}
+
+.reason h3:after {
+    content: "";
+    width: 50px;
+    height: 45px;
+    background: url(../img/sprite.png);
+    left: -71px;
+    top: -16px;
+    position: absolute;
+}
+
+.r2 h3:after {
+	background: url(../img/sprite.png) -50px 0px;
+}
+
+.r3 h3:after {
+	background: url(../img/sprite.png) -112px 0px;
+}
+
+.r4 h3:after {
+	background: url(../img/sprite.png) -168px 0px;
+}
+
+.mac {
+    width: 849px;
+    height: 494px;
+    background: url(../img/mac.jpg) no-repeat;
+    padding: 3.9% 0px 41px 19%;
+    position: relative;
+    background-position: right top;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.prmr {
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+
+#why-us {
+    padding-bottom: 70px;
+}
+
+.dop {
+    padding: 0 50px 0 67px;
+}
+
+
+/*Slider_block*/
+
+#slider_block {
+    background: linear-gradient(to right, #f1f1f1, 58%, #f5f5f5, 90%, #f2f2f2);
+    padding: 120px 0 20px 0;
+}
+
+#slider_block h2{
+    margin-bottom: 65px;
+}
+.item img {
+    float: right;
+    width: 492px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.item.active {
+    overflow: hidden;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #64a4d7;
+    font-size:12px;
+}
+
+.carousel-indicators .active {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-color: #64A4D7;
+    border: 1px solid #64a4d7;
+}
+
+.item h3{
+    padding-left: 100px;
+    line-height: 60px;
+    position: relative;
+}
+
+.item h3:after {
+    content: "";
+    width: 58px;
+    height: 45px;
+    background: url(../img/sprite.png) -232px 0px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+
+
+
+#sign {
+	text-align: center;
+    padding: 115px 0 84px 0;
+}
+
+
+
+
+.btn-success {
+    text-transform: uppercase;
+    padding: 16px 17px;
+    border-radius: 2px;
+    border: 0px;
+    background: #77C344;
+    font-size: 14px;
+    top: -1px;
+    position: relative;
+    left: 22px;
+}
+
+nav#footer {
+    position: static;
+    background: #F9F9F9;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+/*Карта*/
+
+@font-face {
+ font-family: 'Lobster';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Lobster'), local('Lobster-Regular'),
+ url(http://bootstraptema.ru/snippets/font/2016/lobster/Lobster.woff) format('woff'),
+ url(http://bootstraptema.ru/snippets/font/2016/lobster/Lobster.ttf) format('truetype');
+}
+#map {
+    width: 74.6%;
+    height: 414px;
+    position: absolute !important;
+}
+.info-window h3 {
+font-family: 'Lobster'; /* Шрифт заголовка описания */
+color: #694198; /* Цвет заголовка описания */
+}
+.info-content {
+color: #777; /* Цвет контента описания */
+}
+
+/*Добавляем цифры в слайдер, пришлось сделать многими классами потому что по другому не работало */
+
+#carousel li{
+    position: relative;
+}
+
+#carousel li[data-slide-to="0"]:before {
+    content: "1";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 498px;
+    color:#333;
+}
+
+#carousel li[data-slide-to="1"]:before {
+    content: "2";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 498px;
+    color:#333;
+}
+
+#carousel li[data-slide-to="2"]:before {
+    content: "3";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 498px;
+    color:#333;
+}
+
+#carousel li[data-slide-to="3"]:before {
+    content: "4";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 498px;
+    color:#333;
+}
+
+.soc {
+    padding: 0 16px 0 0px !important;   
+}
+
+.tw i{
+    color: #00b8ff;
+}
+
+.fb i{
+    color:#1775c5;
+}
+
+.gp i{
+    color:#c54d4d;
+}
+
+.last {
+    border-right: 1px solid #bbbdc1;
+    padding-right: 31px;
+}
+
+footer img {
+    margin-top: 13px;
+}
